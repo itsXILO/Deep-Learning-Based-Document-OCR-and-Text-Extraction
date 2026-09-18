@@ -1,0 +1,3 @@
+Team Meeting Notes
+
+We discussed the OCR pipeline rollout. The preprocessing step should improve accuracy on scanned documents. Next week we compare results against the baseline and update the documentation with run instructions.
