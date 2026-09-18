@@ -1,0 +1,96 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Deep learning / ML artifacts
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npz
+*.npy
+models/
+checkpoints/
+weights/
+runs/
+logs/
+tensorboard/
+
+# Data
+data/input/
+data/output/
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# Environment variables / secrets
+.env
+.env.*
+!*.env.example
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.iml
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Django / misc
+*.log
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# Temporary
+tmp/
+temp/
+*.tmp
