@@ -41,6 +41,26 @@ python main.py --input data/input --output data/output
 python evaluate.py --truth data/ground_truth
 ```
 
+## Web UI (OCR Studio)
+
+A Flask web app (`.venv`):
+
+```bash
+.venv\Scripts\activate
+python app.py
+# open http://127.0.0.1:5000
+```
+
+- Drag & drop or browse to **upload any image** and OCR it right away
+- Options: min confidence, languages (en/fr/es/de/…), deskew, GPU toggle
+- Results show the detected text, per-line confidence, and bounding-box
+  overlay (hover a box to inspect that line), plus copy / download-as-.txt
+- "Process input folder" runs the same pipeline over `data/input`
+- Uploads are processed via `POST /api/ocr`; results land in `data/output/web`
+
+> The EasyOCR reader is cached per language/GPU combo, so you can switch
+> options between requests without reloading models.
+
 ## Outputs
 
 `data/output/<name>.txt` — OCR text (paragraphs)

@@ -30,3 +30,6 @@ filelock==4.0.0
 packaging==26.3
 typing-extensions==4.16.0
 lazy-loader==0.5
+
+# Web UI
+flask==3.1.3
