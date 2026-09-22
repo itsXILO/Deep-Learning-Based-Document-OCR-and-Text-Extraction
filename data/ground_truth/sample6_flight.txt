@@ -1,0 +1,5 @@
+Flight Confirmation
+
+Passenger: Jane Smith Flight: UA 1287
+From: New York (JFK) To: Chicago (ORD)
+Depart: 9:45 AM Arrive: 11:20 AM Seat: 14B

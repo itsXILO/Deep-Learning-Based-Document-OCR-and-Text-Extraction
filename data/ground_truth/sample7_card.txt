@@ -1,0 +1,3 @@
+Ocr
+
+Optical character recognition is the technology that turns images of text into editable text.

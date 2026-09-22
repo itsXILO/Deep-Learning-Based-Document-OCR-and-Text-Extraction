@@ -1,0 +1,11 @@
+City Cafe
+
+Thank you for your visit! Have a great day.
+
+YOUR RECEIPT
+1 Cappuccino $4.50
+2 Butter croissant $3.50
+1 Club sandwich $9.50
+1 Orange juice $1.00
+
+TOTAL: $18.50
